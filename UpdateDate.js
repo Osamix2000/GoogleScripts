@@ -8,4 +8,4 @@ function drawLastUpdateString(){
 	var string = "更新日：" + Utilities.formatDate(date,'Asia/Tokyo','yyyy年M月dd日');
 	Logger.log(string+week);
 	cell.setValue(string+week);
-  }
+}
